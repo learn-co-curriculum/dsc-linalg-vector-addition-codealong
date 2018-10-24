@@ -23,11 +23,12 @@ Two arrays A and B with the same dimensions can be added together if:
 
 <img src="add.png" width=400>
 
-here A(i,j) and B(i,j) represent row and column locations. Another visual representation of this process can be shown as :
+here A(i,j) and B(i,j) represent row and column locations. This is a more standard notation that you will find in most literature. Another visual representation of this process can be shown as :
 <img src="add2.png" width=300>
-This is a more standard notation that you will find in most literature. 
 
-1 dimensional can be added together in exactly the same way following similar assumptions. 
+
+1 dimensional arrays can be added together in exactly the same way following similar assumptions. The addition of two vectors x and y may be represented graphically by placing the start of the arrow y at the tip of the arrow x, and then drawing an arrow from the start (tail) of x to the tip (head) of y. The new arrow drawn represents the vector x + y
+<img src="vector_addition.png" width=400>
 
 We can perform addition operations in Numpy as:
 ```python
@@ -44,6 +45,29 @@ c
 ```python
 # Code here 
 ```
+
+Subtracting a vector is the same as adding its negative. So, the difference of the vectors x and y is equal to the sum of x and -y: 
+> x - y = x + (-y)
+
+Geometrically, when we subtract y from x, we place the end points of x and y at the same point, and then draw an arrow from the tip of y to the tip of x. That arrow represents the vector x - y.
+<img src="vector_subtraction.png" width=400>
+
+Mathematically, we subtract the corresponding components of vector y from the vector x.
+
+```python
+# Subtracting 1-D arrays
+a = np.array([1,2,3])
+b = np.array ([4,5,6]) 
+c=b-a
+c
+```
+
+
+```python
+# Code here
+```
+
+Now lets try addition with matrices.
 
 ``` python
 # Adding 2-D matrices
