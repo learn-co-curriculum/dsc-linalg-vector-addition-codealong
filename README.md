@@ -1,5 +1,5 @@
 
-# Vector Addition and Broadcasting in Numpy - code along
+# Vector Addition and Broadcasting in Numpy - Code Along
 
 ## Introduction
 
