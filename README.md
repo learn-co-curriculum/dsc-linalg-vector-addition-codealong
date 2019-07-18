@@ -43,11 +43,11 @@ $$
 
 
 here $A_(i,j)$ and $B_(i,j)$ represent row and column locations. This is a more standard notation that you will find in most literature. Another visual representation is shown below:
-<img src="images/addition.png" width="250">
+<img src="images/new_addition.png" width="250">
 
 
 1D-arrays can be added together in exactly the same way using similar assumptions. The addition of two vectors $x$ and $y$ may be represented graphically by placing the start of the arrow y at the tip of the arrow x, and then drawing an arrow from the start (tail) of $x$ to the tip (head) of $y$. The new arrow represents the vector $x + y$.
-<img src="images/vector_addition.png" width="350">
+<img src="images/new_vector_addition.png" width="350">
 
 You can perform addition operations in Numpy as:
 ```python
@@ -69,7 +69,7 @@ Subtracting a vector is the same as adding its negative. So, the difference of t
 > $x - y = x + (-y)$
 
 Geometrically, when we subtract y from x, we place the end points of x and y at the same point, and then draw an arrow from the tip of y to the tip of x. That arrow represents the vector x - y.
-<img src="images/vector_subtraction.png" width=400>
+<img src="images/new_vector_subtraction.png" width=400>
 
 Mathematically, we subtract the corresponding components of vector y from the vector x.
 
