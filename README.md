@@ -69,7 +69,7 @@ Subtracting a vector is the same as adding its negative. So, the difference of t
 > $x - y = x + (-y)$
 
 Geometrically, when we subtract y from x, we place the end points of x and y at the same point, and then draw an arrow from the tip of y to the tip of x. That arrow represents the vector x - y.
-<img src="images/new_vector_subtraction.png" width=400>
+<img src="images/new_vector_subtraction.png" width="400">
 
 Mathematically, we subtract the corresponding components of vector y from the vector x.
 
