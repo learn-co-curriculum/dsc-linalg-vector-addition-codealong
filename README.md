@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This lesson is a supplement to the previous lesson where you learned how to create Numpy arrays as vectors or matrices and performed basic manipulations on these objects. In this lesson you'll look at matrix addition and broadcasting features offered by Numpy.
+This lesson is a supplement to the previous lesson where you learned how to create Numpy arrays as vectors or matrices and performed basic manipulations on these objects. In this lesson, you'll look at matrix addition and broadcasting features offered by Numpy.
 
 ## Objectives
 You will be able to:
